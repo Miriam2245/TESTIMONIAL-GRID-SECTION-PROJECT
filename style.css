@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.main-section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 70%;
+}
+
+.testimony-1 {
+  background-color: antiquewhite;
+  width: 200px;
+  height: 200px;
+}
+.testimony-2 {
+  background-color: rgb(27, 24, 21);
+  width: 200px;
+  height: 200px;
+}
+.testimony-3 {
+  background-color: rgb(53, 163, 103);
+  width: 200px;
+  height: 200px;
+}
+.testimony-4 {
+  background-color: rgb(160, 48, 113);
+  width: 200px;
+  height: 200px;
+}
+.testimony-5 {
+  background-color: rgb(21, 1, 52);
+  width: 200px;
+  height: 200px;
+}
