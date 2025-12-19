@@ -5,6 +5,10 @@ body {
   height: 100vh;
   margin: 0;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 .main-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -14,7 +18,7 @@ body {
 }
 
 .testimony-1 {
-  background-color: antiquewhite;
+  background-color: hsl(263, 55%, 52%);
   grid-column: span 2;
   height: 400px;
   border-radius: 10px;
@@ -24,18 +28,27 @@ body {
   gap: 10px;
   margin-left: 40px;
   margin-top: 20px;
+  background-color: turquoise;
 }
 .profile-picture {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  margin-top: 5px;
 }
 .daniel-img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
-
+.profile-name-p1 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.profile-name-p2 {
+  padding-left: 10px;
+  padding-top: 5px;
+}
 .testimony-2 {
   background-color: rgb(27, 24, 21);
   border-radius: 10px;
